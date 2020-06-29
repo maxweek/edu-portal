@@ -1,0 +1,25 @@
+$fontText: "Roboto", //Шрифт текста
+sans-serif;
+$fontHeader: "Roboto", //Шрифт заголовка
+sans-serif;
+$color_white: white;
+$color_black: black;
+$color_orange: #55f168;
+$color_lightgray: #f1f1f1;
+$color_middlegray: #dddddd;
+$color_darkgray: #181818;
+$color_selection: #ffffff;
+$color_placeholder: black;
+
+$color_primary:#55f168;
+$color_primary:#ff4300;
+$color_secondary:#dfdfdf;
+
+$color_main_bg: rgb(236, 236, 236);
+
+$checkbox_container_border: 2px solid black;
+$checkbox_container_background: transparent;
+$cloud_shadow: 0 5px 20px -10px $color_darkgray; //Облачная тень
+$cloud_light_shadow: 0 0 50px -24px $color_lightgray; // Мягкая облачная тень
+$focus_shadow: 0 5px 10px -5px $color_middlegray; // Тень при фокусе
+$text_shadow_bold: 0 0 1px;

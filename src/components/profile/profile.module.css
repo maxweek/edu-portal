@@ -1,0 +1,56 @@
+.outer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+}
+
+.inner {
+    display: flex;
+    flex-direction: row;
+    background: white;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.col {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.col+.col {
+    margin-left: 20px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.row+.row {
+    margin-top: 14px;
+}
+.row_inner {
+    display: flex;
+    flex-direction: column;
+}
+.avatar {
+    max-width: 140px;
+    max-height: 140px;
+    height: 90vh;
+    width: 90vw;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.name {
+    font-size: 26px;
+    font-weight: bold;
+    font-style: italic;
+}

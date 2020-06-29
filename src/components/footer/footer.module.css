@@ -1,0 +1,47 @@
+.outer {
+    width: 100%;
+    background: rgb(224, 224, 224);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.inner {
+    padding: 20px 15px 60px;
+    width: 100%;
+    max-width: 990px;
+    margin: 0 auto;
+}
+.logo_box {
+    display: flex;
+    align-items: center;
+}
+.logo_text {
+    margin-left: 10px;
+}
+.logo {
+    display: flex;
+    height: 40px;
+    width: 40px;
+    background: #ee7d14;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    transition: .2s;
+    margin-bottom: 10px;
+}
+.ftr_col {
+    display: flex;
+    flex-direction: column;
+}
+
+.ftr_row {
+    display: flex;
+    justify-content: space-between;
+
+}
+*+.ftr_row {
+    margin-top: 20px;
+}

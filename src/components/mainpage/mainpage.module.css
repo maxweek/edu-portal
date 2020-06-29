@@ -1,0 +1,41 @@
+.outer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.title_box {
+    flex: 1;
+}
+
+.title_box_inner {
+    background: #ee7d14;
+    padding: 30px 50px;
+}
+
+.text {
+    line-height: 1.2;
+    color: #522800;
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+.whoiam {
+    flex: 1;
+}
+
+.whoiam_outer {
+    display: flex;
+}
+
+.whoiam_box_inner {
+    flex: 1;
+    padding: 30px 50px;
+}
+
+.tch {
+    background: #38e0a2;
+}
+
+.std {
+    background: #4946ff;
+}
